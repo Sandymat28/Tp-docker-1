@@ -5,5 +5,16 @@
 </head>
 <body>
     <h1>Bienvenu sur mon site web deploye avec Kubernetes!</h1>
+    <h2>Formulaire d'inscription</h2>
+    <form action="/submit_form" method="post">
+        <label for="nom">Nom :</label>
+        <input type="text" id="nom" name="nom" required><br><br>
+
+        <label for="prenom">Prénom :</label>
+        <input type="text" id="prenom" name="prenom" required><br><br>
+
+        <button type="submit">Envoyer</button>
+    </form>
+    <p>Entrer les informations et valider</p>
 </body>
 </html>
